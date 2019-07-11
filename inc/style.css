@@ -1,0 +1,27 @@
+p.indent{ 
+	padding-left: 1em; 
+	margin: 0;  
+}
+p.indent1{ 
+	padding-left: 6em; 
+	margin: 0; 
+}
+p.indent2{ 
+	padding-left: 11em;
+	margin: 0; 
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
